@@ -47,3 +47,5 @@ export const success = (data?: Data): JSend => {
     data: data ?? null,
   };
 };
+
+export const SUCCESS: JSend = success();
