@@ -15,7 +15,7 @@
   ],
   "packages": {
     ".": {
-      "exclude-paths": [ ]
+      "exclude-paths": []
     }
   }
 }
