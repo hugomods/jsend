@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.2](https://github.com/hugomods/jsend/compare/jsend/v0.2.1...jsend/v0.2.2) (2024-12-08)
+
+
+### Bug Fixes 🐞
+
+* correct publish workflow ([376d650](https://github.com/hugomods/jsend/commit/376d650168af976efe785727e332466d54c5a482))
+
 ## [0.2.1](https://github.com/hugomods/jsend/compare/jsend/v0.2.0...jsend/v0.2.1) (2024-12-08)
 
 
