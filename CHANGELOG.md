@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/hugomods/jsend/compare/jsend/v0.2.2...jsend/v0.3.0) (2024-12-08)
+
+
+### Features ✨
+
+* add the SUCCESS constant, which represents success response without data ([2614ef3](https://github.com/hugomods/jsend/commit/2614ef390e17394fd6ad81d9164a3673a1a42f95))
+
 ## [0.2.2](https://github.com/hugomods/jsend/compare/jsend/v0.2.1...jsend/v0.2.2) (2024-12-08)
 
 
