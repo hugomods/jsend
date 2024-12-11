@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.0](https://github.com/hugomods/jsend/compare/v0.5.2...v0.6.0) (2024-12-11)
+
+
+### Features ✨
+
+* export Data and JSendResponse ([ef24218](https://github.com/hugomods/jsend/commit/ef242181a52664cd7609b20ada419f1432424032))
+
 ## [0.5.2](https://github.com/hugomods/jsend/compare/v0.5.1...v0.5.2) (2024-12-11)
 
 
