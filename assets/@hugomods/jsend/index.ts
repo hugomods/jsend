@@ -1,4 +1,4 @@
-type Data = unknown;
+export type Data = unknown;
 
 export const STATUS_ERROR = 'error';
 export const STATUS_FAIL = 'fail';
@@ -12,7 +12,7 @@ export const STATUS_SUCCESS = 'success';
  * @property {number} [code] - The error code.
  * @property {string} [message] - The error message.
  */
-interface JSendResponse {
+export interface JSendResponse {
   status: string;
   data?: Data;
   code?: number;
