@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.3](https://github.com/hugomods/jsend/compare/v0.4.2...v0.4.3) (2024-12-11)
+
+
+### Bug Fixes 🐞
+
+* add JSDoc comments ([a0c3900](https://github.com/hugomods/jsend/commit/a0c390006dd3a6785e39d42f2bab058dfd910c7e))
+
 ## [0.4.2](https://github.com/hugomods/jsend/compare/v0.4.1...v0.4.2) (2024-12-11)
 
 
