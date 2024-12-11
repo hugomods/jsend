@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.4](https://github.com/hugomods/jsend/compare/v0.4.3...v0.4.4) (2024-12-11)
+
+
+### Bug Fixes 🐞
+
+* correct JSDoc for ErrorFunc ([13eddec](https://github.com/hugomods/jsend/commit/13eddecd6479f3284bcd5837f6bce6ae8edee9d4))
+
 ## [0.4.3](https://github.com/hugomods/jsend/compare/v0.4.2...v0.4.3) (2024-12-11)
 
 
