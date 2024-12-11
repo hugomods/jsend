@@ -19,7 +19,7 @@ interface JSendResponse {
   message?: string;
 }
 
-export default class JSend {
+export class JSend {
   /**
    * @see {@link JSendResponse.code}
    */
