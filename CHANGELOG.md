@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.5.0](https://github.com/hugomods/jsend/compare/v0.4.4...v0.5.0) (2024-12-11)
+
+
+### Features ✨
+
+* add JSend class ([99c5a8d](https://github.com/hugomods/jsend/commit/99c5a8d6ae69ac0b38791e6ab838e89eac3c1f6c))
+
+
+### Bug Fixes 🐞
+
+* correct JSDoc comment for ErrorFunc ([3269285](https://github.com/hugomods/jsend/commit/326928549355b3ce074f9f1686d8364301aa860b))
+
 ## [0.4.4](https://github.com/hugomods/jsend/compare/v0.4.3...v0.4.4) (2024-12-11)
 
 
