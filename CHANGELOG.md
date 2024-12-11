@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.1](https://github.com/hugomods/jsend/compare/v0.5.0...v0.5.1) (2024-12-11)
+
+
+### Bug Fixes 🐞
+
+* export named class instead ([d956ac8](https://github.com/hugomods/jsend/commit/d956ac844381c01e892d77f5fdbc53d35de4a1a1))
+
 ## [0.5.0](https://github.com/hugomods/jsend/compare/v0.4.4...v0.5.0) (2024-12-11)
 
 
