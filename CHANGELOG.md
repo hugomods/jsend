@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.1](https://github.com/hugomods/jsend/compare/v0.4.0...v0.4.1) (2024-12-11)
+
+
+### Bug Fixes 🐞
+
+* **release-please:** NPM publish ([5012e61](https://github.com/hugomods/jsend/commit/5012e61b2bbd97e872d7cdf51b5748dcc6341d13))
+
 ## [0.4.0](https://github.com/hugomods/jsend/compare/v0.3.0...v0.4.0) (2024-12-11)
 
 
