@@ -16,6 +16,14 @@ interface JSend {
   message?: string;
 }
 
+/**
+ * Generate an error response.
+ * @overload
+ * @param {string} message - Error message.
+ * @param {number} [code] - Error code.
+ * @param {unknown} [data]
+ * @returns {JSend}
+ */
 type ErrorFunc = {
   (message: string): JSend;
   (message: string, code: number): JSend;
@@ -23,13 +31,6 @@ type ErrorFunc = {
   (message: string, code: number, data: Data, a: string): JSend;
 };
 
-/**
- * Generate an error response.
- * @param {string} message - Error message.
- * @param {number} [code] - Error code.
- * @param {unknown} [data]
- * @returns {JSend}
- */
 export const error: ErrorFunc = (
   message: string,
   code?: number,
