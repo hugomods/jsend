@@ -1,8 +1,8 @@
 import { expect, test } from '@jest/globals';
-import jsend from './index';
+import { JSend } from './index';
 
 test('fail without data', () => {
-  const rst = JSON.parse(JSON.stringify(jsend.fail()));
+  const rst = JSON.parse(JSON.stringify(JSend.fail()));
   expect(rst.status).toBe('fail');
   expect(rst.data).toBeNull();
 });
@@ -13,14 +13,14 @@ test('fail with data', () => {
       title: 'The title is required.',
     },
   };
-  const rst = JSON.parse(JSON.stringify(jsend.fail(data)));
+  const rst = JSON.parse(JSON.stringify(JSend.fail(data)));
   expect(rst.status).toBe('fail');
   expect(rst.data).toStrictEqual(data);
 });
 
 test('error with message', () => {
   const message = 'ERROR';
-  const rst = JSON.parse(JSON.stringify(jsend.error(message)));
+  const rst = JSON.parse(JSON.stringify(JSend.error(message)));
   expect(rst.status).toBe('error');
   expect(rst.message).toStrictEqual(message);
 });
@@ -28,7 +28,7 @@ test('error with message', () => {
 test('error with message and code', () => {
   const message = 'ERROR';
   const code = 10000;
-  const rst = JSON.parse(JSON.stringify(jsend.error(message, code)));
+  const rst = JSON.parse(JSON.stringify(JSend.error(message, code)));
   expect(rst.status).toBe('error');
   expect(rst.message).toStrictEqual(message);
   expect(rst.code).toStrictEqual(code);
@@ -46,14 +46,14 @@ test('error with message, code and data', () => {
       },
     ],
   };
-  const rst = JSON.parse(JSON.stringify(jsend.error(message, code, data)));
+  const rst = JSON.parse(JSON.stringify(JSend.error(message, code, data)));
   expect(rst.status).toBe('error');
   expect(rst.message).toStrictEqual(message);
   expect(rst.code).toStrictEqual(code);
 });
 
 test('success without data', () => {
-  const rst = JSON.parse(JSON.stringify(jsend.success()));
+  const rst = JSON.parse(JSON.stringify(JSend.success()));
   expect(rst.status).toBe('success');
   expect(rst.data).toBeNull();
 });
@@ -70,7 +70,7 @@ test('success with data', () => {
     ],
     page: 1,
   };
-  const rst = JSON.parse(JSON.stringify(jsend.success(data)));
+  const rst = JSON.parse(JSON.stringify(JSend.success(data)));
   expect(rst.status).toBe('success');
   expect(rst.data).toStrictEqual(data);
 });
